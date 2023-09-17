@@ -1,10 +1,10 @@
 ----------------------HISTORIAS DE USUARIO-----------------------------
 
-1) Registro de un nuevo cliente (lucas)
-2) Ingreso al sistema como cliente (lucas)
+1) Registro de un nuevo cliente (lucas) --TERMINADA--
+2) Ingreso al sistema como cliente (lucas) --TERMINADA--
 3) Actualizacion de datos como cliente   --TERMINADA--
-4) Registro de un nuevo empleado (lucas)
-5) Ingreso al sistema como empleado (lucas)
+4) Registro de un nuevo empleado (lucas) --TERMINADA--
+5) Ingreso al sistema como empleado (lucas) --TERMINADA--
 6) Actualizacion de datos como empleado (vicky)
 7) Modificacion y baja de clientes (vicky)
 8) Modificacion y baja de empleados (vicky)
