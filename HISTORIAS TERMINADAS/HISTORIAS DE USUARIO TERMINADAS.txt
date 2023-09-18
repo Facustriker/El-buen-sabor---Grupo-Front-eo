@@ -17,8 +17,8 @@
 15) Administracion de estado, cobro y entrega de pedidos  --TERMINADA--
 16) Entrega de pedidos Delivery --TERMINADA--
 17) Vista de pedidos (pablo)
-18) Generacion de factura (agus)
-19) Anulacion de factura mediante nota de credito (agus)
+18) Generacion de factura (agus)        --TERMINADA--
+19) Anulacion de factura mediante nota de credito (agus)      --TERMINADA--
 20) Alta, modificacion y baja de rubros       --TERMINADA-- (falta un div que me lo tiene que pasar el fabri)
 20.1) --TERMINADA--
 20.2) --TERMINADA--
