@@ -1,0 +1,690 @@
+body{
+    background-color: #FFF3DC;
+    font-family: sans-serif;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+
+/*------------------------------------------------------------ ESTILOS HEADER ---------------------------------------------------------------------*/
+#atras {
+    background-color: #FFF3DC;
+    border: none;
+    padding: 15px 150px;
+    cursor: pointer;
+}
+#lineaDivisoriaHorizontal2 {
+    display: flex;
+    background-color: black;
+    height: 6px;
+    align-items: center;
+   
+}
+.ContenedorBotonesMenu {
+    margin:auto;
+}
+.Pedido {
+    cursor: pointer;
+    color: #A3A3A3;
+    margin-right: 100px;
+    background-color: #FFF3DC;
+    border: none;
+}
+.Stock {
+    cursor: pointer;
+    margin-right: 100px;
+    background-color: #FFF3DC;
+    border: none;
+}
+.Rubro {
+    cursor: pointer;
+    color: #A3A3A3 ;
+    background-color: #FFF3DC;
+    border: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D55039;
+    min-height: 75px;
+    padding: 10px;
+    padding-right: 96px;
+  
+}
+
+#contenedorPerfilCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+#contenedorPerfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contenedorPerfil:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+
+#botonMiPerfil{
+    border: none;
+    background-color: #D55039;
+    color: white;
+    font-size: 20px;
+}
+
+#botonMiPerfil:hover{
+    cursor: pointer;
+}
+
+#personitaPerfilHeader{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#imagenCarrito{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.buttonIngresar {
+    min-height: 50px;
+    min-width: 110px;
+    background-color:#FFF3DC;
+    color: #D55039;
+    border-radius: 10px;
+    border-color: #D55039;
+    border-width: 3px;
+}
+
+.buttonIngresar:hover{
+    background-color: #953A3A;
+    color: #FFF3DC;
+    cursor: pointer;
+}
+
+.barraBuscar{
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonLupa{
+    border: none;
+    background: none;
+}
+
+.imagenLupa{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cajaBuscar{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 80px;
+    text-align: left;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.lineaBordo{
+    display: flex;
+    background-color: #953A3A;
+    height: 12px;
+    padding: 1px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 96px;
+}
+
+#logoBSArriba{
+    width:110px;
+    min-height: 110px;
+}
+
+#arriba{                    /*BOTONES SUPERIORES DE HOME, PRODUCTOS Y CONTACTOS*/
+    color: #FFF3DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 66px;
+}
+
+.buttonA{
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    text-align: center;
+    font-style: inherit;
+    font-size: 25px;
+  }
+
+.buttonA:hover{
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+
+/* ------------------------------------------ESTILOS TABLA ABM RUBRO INGREDIENTES-------------------------------------------*/
+.tabla1{
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    justify-content: center;
+    width:1400px;
+    height: 60px;
+    background-color: #FFFF;
+    border-collapse: collapse;
+    box-shadow: 0 0 3px rgba(85, 85, 85, 0.267);
+    
+}
+.tabla1 thead {
+    height: 30px;
+    background-color: #D9D9D9;
+    font-weight: 700px;
+
+}
+.tabla1 th {
+    text-align: center;
+    padding: 10px 20px;
+}
+.imagencentrada {
+    padding: auto;
+}
+.tabla1 td {
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr:nth-child(2) {
+    background-color: #F49090;
+}
+tr:nth-child(4){
+    background-color: #F49090;
+}
+#contenedorCentroPantalla{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.botonTablaClienteDetalle {
+    display: flex;
+    padding-left: 10px;
+    background-color: #D9D9D9;
+    border-radius: 12px;
+    border: none;
+    align-items: center;
+    height: 35px;
+    width: 90px;
+    cursor: pointer;
+}
+#bloque1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F0F0F0;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.227);
+    width: 1500px;
+
+  
+}
+#contenedorLineaHorizontal{
+    display: flex;
+    justify-content: center;
+}
+#lineaHorizontal {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 1400px;
+    height: 2px;
+}
+#contenedorLineaDivisoriaVerticalTextos {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#lineaVertical {
+    display: flex;
+    background-color: black;
+    width: 2px;
+    height: 80px;
+
+}
+.textoProductoIngrediente {
+    color: black;
+    margin-bottom: 40px;
+}
+#bloque2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+#lineaDivisoriaTexto{
+    display: flex;
+    background-color: black;
+    width: 2px;
+    height: 50px;
+}
+#contenedorLineaDivisoriaHorizontal{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#lineaDivisoriaHorizontal{
+    background-color: black;
+    height: 2px;
+    width: 1000px;
+}
+
+
+
+.columnaTitulosCliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulosCliente{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.carneFiambre {
+    display: flex;
+    padding-left: 15px;
+}
+
+.textoProductoIngrediente{
+    height: 10px;
+    cursor: pointer;
+}
+
+#contenedorBotonesNuevoIngrediente{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#Nuevo {
+    background-color: #039900;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.227);
+    cursor: pointer;
+}
+
+#botonTablaCocineroIngrediente{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 95px;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.227);
+    cursor: pointer;
+}
+
+#imagenBotonIngrediente{
+    width: 15px;
+    height: 10px;
+}
+
+#contenedorBotonesTablaCliente{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 13px;
+    padding-right: 20px;
+}
+
+#contenedorBotonesTablaClienteDetalle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 13px;
+}
+
+.botonTablaCliente{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 0px;
+    height: 10px;
+    width: 85px;
+    font-size: 15px;
+}
+
+.botonTablaClienteInvisible{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    height: 35px;
+    width: 85px;
+    font-size: 15px;
+}
+
+.contenedorElementosCategorias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedorColumnaAcciones{
+    height: 48px;
+}
+.imagenTablaCocinero{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#contenedorBotonesInferiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    gap: 30px;
+}
+.botonregistro {
+    text-decoration: none;
+}
+#botonRegistrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC700;
+    color: black;
+    border: none;
+    
+    border-radius: 4px;
+    height: 30px;
+    width: 180px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.227);
+    cursor: pointer;
+}
+
+#botonListo{
+    background-color: #00BD13;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 95px;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.227);
+    cursor: pointer;
+}
+
+#botonTablaClienteVolver:hover{
+    cursor: pointer;
+}
+
+#barraBuscar {
+    gap: 0%;
+}
+
+
+.imagenLupa {
+    width: 25px;
+    height: 30px;
+}
+
+
+
+
+/* ------------------------------------------ESTILOS FOOTER-------------------------------------------*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #D55039;
+    flex-direction: column;
+}
+
+.lineaBordoFooter{
+    height: 15px;
+    background-color: #953A3A;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.lineaNegraFooter{
+    height: 3px;
+    background-color: #00000038;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    text-align: center;
+    font-style: inherit;
+    font-size: 25px;
+  }
+
+  .buttonAb{
+    font-size: 18px;
+    margin: 15px 32px;
+    cursor: pointer;
+  }
+
+  .buttonUp{
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .buttonApp{
+    font-size: 20px !important;
+    cursor: pointer;
+  }
+
+.button:hover{
+    color: white;
+    text-decoration-line: underline;
+  }
+
+.texto{
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    font-style: inherit;
+    
+}
+
+
+/* ---------------------PARTE 1 (COLUMNA APPS, LOGO Y COLUMNA REDES SOCIALES)-------------------------------------------*/
+
+.parte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    align-items: center;
+}
+
+
+/* ------------------------------------------CONTENEDOR APP-------------------------------------------*/
+
+#APPcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#colTextoApp{
+    display: flex;
+    flex-direction: column;
+    color: #FFF3DC;
+    font-size: 14px;
+    font-style: inherit;
+}
+
+#Apps{
+    display: flex;
+}
+
+.imagePlay{
+    width: 90px;
+    height: 35px;
+}
+
+.imageApple{
+    width: 90px;
+    height: 35px;
+}
+
+/* ------------------------------------------CONTENEDOR LOGO-------------------------------------------*/
+
+#logoBSFooter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* ------------------------------------------CONTENEDOR REDES SOCIALES-------------------------------------------*/
+
+#socialContenedor{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#imagenNombreContenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+#instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageInsta{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.imageFace{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* -----------------------------------------PARTE 2 (BOTONES INFERIORES)-------------------------------------------*/
+
+.parte2{
+    margin-bottom: 1em;
+}
+
+#abajo{
+    color: #FFF3DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 66px;
+    color: #FFF3DC;
+}
+
+@media (max-width:700px){       /*CUANDO LA PANTALLA SEA MENOR A 700PX LLAMA A MEDIA QUERY Y HACE:*/
+    .header{
+        flex-direction: column;
+    }
+
+    .parte1{
+        flex-direction: column;
+    }
+
+    #arriba{
+        padding: 10px;
+    }
+
+    #logo{
+        padding-left: 10px;
+    }
+
+    .fondo{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+
+    #contenedorImagenesComida{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contenedorImagenesInformacion{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        align-items: center;
+    }
+}
