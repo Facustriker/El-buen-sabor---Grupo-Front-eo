@@ -1,0 +1,523 @@
+body{
+    background-color: #FFF3DC;
+    font-family: sans-serif;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+
+/*------------------------------------------------------------ ESTILOS HEADER ---------------------------------------------------------------------*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D55039;
+    min-height: 75px;
+    padding: 10px;
+    padding-right: 96px;
+  
+}
+
+#contenedorPerfilCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+#contenedorPerfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+#contenedorPerfil:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+
+#botonMiPerfil{
+    border: none;
+    background-color: #D55039;
+    color: white;
+    font-size: 20px;
+}
+
+#botonMiPerfil:hover{
+    cursor: pointer;
+}
+
+#personitaPerfilHeader{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+    
+}
+
+#imagenCarrito{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.buttonIngresar {
+    min-height: 50px;
+    min-width: 110px;
+    background-color:#FFF3DC;
+    color: #D55039;
+    border-radius: 10px;
+    border-color: #D55039;
+    border-width: 3px;
+}
+
+.buttonIngresar:hover{
+    background-color: #953A3A;
+    color: #FFF3DC;
+    cursor: pointer;
+}
+
+.barraBuscar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonLupa{
+    border: none;
+    background: none;
+}
+
+.imagenLupa{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cajaBuscar{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 80px;
+    text-align: left;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.lineaBordo{
+    display: flex;
+    background-color: #953A3A;
+    height: 12px;
+    padding: 1px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 96px;
+}
+
+#logoBSArriba{
+    width:110px;
+    min-height: 110px;
+}
+
+#arriba{                    /*BOTONES SUPERIORES DE HOME, PRODUCTOS Y CONTACTOS*/
+    color: #FFF3DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 66px;
+}
+
+.buttonA{
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    text-align: center;
+    font-style: inherit;
+    font-size: 25px;
+  }
+
+.buttonA:hover{
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+
+/* ------------------------------------------ESTILOS TABLA-------------------------------------------*/
+
+#my-chart {
+    height: 300px;
+    max-width: 700px;
+    margin: 0 auto;
+    --labels-size: 3rem;
+}
+.textoSuperior{
+    font-size: 30PX;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-style: inherit;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.49);
+}
+
+#botonVolver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D55039;;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.371);
+    cursor: pointer;
+}
+
+/* dropdown */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+  
+.dd-button {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+  
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+  
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+  
+  
+.dd-input {
+display: none;
+}
+
+.dd-menu {
+position: absolute;
+top: 100%;
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 0;
+margin: 2px 0 0 0;
+box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+background-color: #ffffff;
+list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+display: block;
+} 
+
+.dd-menu li {
+padding: 10px 20px;
+cursor: pointer;
+white-space: nowrap;
+}
+
+.dd-menu li:hover {
+background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+display: block;
+margin: -10px -20px;
+padding: 10px 20px;
+}
+
+.dd-menu li.divider{
+padding: 0;
+border-bottom: 1px solid #cccccc;
+}
+
+#contenedorDosBotones{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    padding-top: 25px;
+}
+
+#contenedorTresBotones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 34px;
+    padding-top: 25px;
+    z-index: 1;
+}
+
+#contenedorCentroPantalla{
+    display: flex;
+    justify-content: center;
+    padding-left: 96PX;
+    padding-right: 96px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#tablaPedidosCliente{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.columnaTitulosCliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulosCliente{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nombre{
+    display: flex;
+    padding-left: 15px;
+}
+
+.nombre2{
+    display: flex;
+    padding-right: 4px;
+}
+
+/* ------------------------------------------ESTILOS FOOTER-------------------------------------------*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #D55039;
+    flex-direction: column;
+}
+
+.lineaBordoFooter{
+    height: 15px;
+    background-color: #953A3A;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.lineaNegraFooter{
+    height: 3px;
+    background-color: #00000038;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    text-align: center;
+    font-style: inherit;
+    font-size: 25px;
+  }
+
+  .buttonAb{
+    font-size: 18px;
+    margin: 15px 32px;
+    cursor: pointer;
+  }
+
+  .buttonUp{
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .buttonApp{
+    font-size: 20px !important;
+    cursor: pointer;
+  }
+
+.button:hover{
+    color: white;
+    text-decoration-line: underline;
+  }
+
+.texto{
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    font-style: inherit;
+    
+}
+
+
+/* ---------------------PARTE 1 (COLUMNA APPS, LOGO Y COLUMNA REDES SOCIALES)-------------------------------------------*/
+
+.parte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    align-items: center;
+}
+
+
+/* ------------------------------------------CONTENEDOR APP-------------------------------------------*/
+
+#APPcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#colTextoApp{
+    display: flex;
+    flex-direction: column;
+    color: #FFF3DC;
+    font-size: 14px;
+    font-style: inherit;
+}
+
+#Apps{
+    display: flex;
+}
+
+.imagePlay{
+    width: 90px;
+    height: 35px;
+}
+
+.imageApple{
+    width: 90px;
+    height: 35px;
+}
+
+/* ------------------------------------------CONTENEDOR LOGO-------------------------------------------*/
+
+#logoBSFooter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* ------------------------------------------CONTENEDOR REDES SOCIALES-------------------------------------------*/
+
+#socialContenedor{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#imagenNombreContenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+#instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageInsta{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.imageFace{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* -----------------------------------------PARTE 2 (BOTONES INFERIORES)-------------------------------------------*/
+
+.parte2{
+    margin-bottom: 1em;
+}
+
+#abajo{
+    color: #FFF3DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 66px;
+    color: #FFF3DC;
+}
+
+@media (max-width:700px){       /*CUANDO LA PANTALLA SEA MENOR A 700PX LLAMA A MEDIA QUERY Y HACE:*/
+    .header{
+        flex-direction: column;
+    }
+
+    .parte1{
+        flex-direction: column;
+    }
+
+    #arriba{
+        padding: 10px;
+    }
+
+    #logo{
+        padding-left: 10px;
+    }
+
+    .fondo{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+
+    #contenedorImagenesComida{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contenedorImagenesInformacion{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        align-items: center;
+    }
+}
