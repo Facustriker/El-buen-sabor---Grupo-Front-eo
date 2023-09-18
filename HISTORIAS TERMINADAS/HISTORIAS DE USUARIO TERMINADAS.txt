@@ -27,5 +27,5 @@
 23) Registro de compra de ingrediente  --TERMINADA--
 24) Control de stock de ingredientes (pablo)
 25) Ranking de productos  --TERMINADA--
-26) Ranking de clientes
-27) Movimientos monetarios
+26) Ranking de clientes   --TERMINADA--
+27) Movimientos monetarios --TERMINADA--
