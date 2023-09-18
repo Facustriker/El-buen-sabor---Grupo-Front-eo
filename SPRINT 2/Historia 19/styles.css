@@ -1,0 +1,158 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    padding-left: 96px;
+    padding-right: 96px;
+    gap: 24px;
+}
+
+
+/*------------------------------------------------------------ ESTILOS HEADER ---------------------------------------------------------------------*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.notaDeCredito {
+    color: #5b5b5b;
+    text-decoration: underline;    
+}
+/*------------------------------------------------------------ ESTILOS TABLAS ---------------------------------------------------------------------*/
+
+#separador {
+    padding-top: 24px;
+    border-radius: 16px;
+}
+
+.bloque1 {
+    background-color: #f1f1f1;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.bloque2 {
+    background-color: #f1f1f1;
+    padding-top: 24px;
+    height: 400px;
+    border-radius: 16px;
+
+  
+
+}
+
+#tabla {
+    padding-top: 20px;
+    border-radius: 16px;
+
+}
+
+.tabla1{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    justify-content: center;
+    padding-bottom: 1px;
+    width: 1000px;
+    height: 60px;
+    background-color: #FFFF;
+    border-collapse: collapse;
+    box-shadow: 0 0 3px rgba(85, 85, 85, 0.267);
+    
+    
+}
+.tabla1 thead {
+    height: 30px;
+    background-color: #D9D9D9;
+    font-weight: 700px;
+
+}
+.tabla1 th {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.tabla1 td {
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subtotal {
+   align-items: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-right: 150px;
+    gap: 400px;
+
+}
+
+#sTotal {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+}
+
+#iva {
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+}
+
+#total {
+    display: flex;
+    flex-direction: row;
+    gap: 93px;
+}
+
+#Total {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 0px;
+
+}
+
+.tabla2{
+    margin-left: 35px;
+    border: solid 1px;
+    justify-content: left;
+    padding-bottom: 1px;
+    width: 190px;
+    height: 60px;
+    background-color: #FFFF;
+    border-collapse: collapse;
+    box-shadow: 0 0 3px rgba(85, 85, 85, 0.267);
+    
+}
+.tabla2 thead {
+    height: 30px;
+    background-color: #D9D9D9;
+    font-weight: 70px;
+
+}
+.tabla2 th {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.tabla2 td {
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
