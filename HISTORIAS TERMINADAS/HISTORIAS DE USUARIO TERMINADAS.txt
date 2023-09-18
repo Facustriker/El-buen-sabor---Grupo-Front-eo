@@ -5,9 +5,9 @@
 3) Actualizacion de datos como cliente   --TERMINADA--
 4) Registro de un nuevo empleado (lucas)
 5) Ingreso al sistema como empleado (lucas)
-6) Actualizacion de datos como empleado (vicky)
+6) Actualizacion de datos como empleado (vicky) --Terminada----
 7) Modificacion y baja de clientes (vicky) --Terminada--
-8) Modificacion y baja de empleados (vicky)
+8) Modificacion y baja de empleados (vicky)  ---Terminada----
 9) Pagina principal para clientes    --TERMINADA--
 10) Busqueda de productos
 11) Carrito de compras (pablo)
