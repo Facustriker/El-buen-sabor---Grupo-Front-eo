@@ -22,7 +22,7 @@
 20) Alta, modificacion y baja de rubros       --TERMINADA-- (falta un div que me lo tiene que pasar el fabri)
 20.1) --TERMINADA--
 20.2) --TERMINADA--
-21) Alta, modificacion y baja de rubros de productos
+21) Alta, modificacion y baja de rubros de productos ---Terminada por fabri---
 22) Alta, modificacion y baja de productos
 23) Registro de compra de ingrediente  --TERMINADA--
 24) Control de stock de ingredientes (pablo)
