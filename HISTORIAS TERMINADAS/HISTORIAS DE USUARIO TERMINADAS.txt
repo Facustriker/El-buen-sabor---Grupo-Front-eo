@@ -1,31 +1,31 @@
 ----------------------HISTORIAS DE USUARIO-----------------------------
 
-1) Registro de un nuevo cliente (lucas)
-2) Ingreso al sistema como cliente (lucas)
+1) Registro de un nuevo cliente (lucas) --TERMINADA--
+2) Ingreso al sistema como cliente (lucas) --TERMINADA--
 3) Actualizacion de datos como cliente   --TERMINADA--
-4) Registro de un nuevo empleado (lucas)
-5) Ingreso al sistema como empleado (lucas)
-6) Actualizacion de datos como empleado (vicky) --Terminada----
-7) Modificacion y baja de clientes (vicky) --Terminada--
-8) Modificacion y baja de empleados (vicky)  ---Terminada----
+4) Registro de un nuevo empleado (lucas) --TERMINADA--
+5) Ingreso al sistema como empleado (lucas) --TERMINADA--
+6) Actualizacion de datos como empleado (vicky) --TERMINADA--
+7) Modificacion y baja de clientes (vicky) --TERMINADA--
+8) Modificacion y baja de empleados (vicky)  --TERMINADA--
 9) Pagina principal para clientes    --TERMINADA--
 10) Busqueda de productos
-11) Carrito de compras (pablo)
+11) Carrito de compras --TERMINADA--
 12) Confirmacion del pedido
-13) Historial de pedidos  --TERMINADA--
-14) Vista y recepcion de pedidos   --TERMINADA--
-15) Administracion de estado, cobro y entrega de pedidos  --TERMINADA--
+13) Historial de pedidos (facu) --TERMINADA--
+14) Vista y recepcion de pedidos (facu)   --TERMINADA--
+15) Administracion de estado, cobro y entrega de pedidos (facu) --TERMINADA--
 16) Entrega de pedidos Delivery --TERMINADA--
-17) Vista de pedidos (pablo)
-18) Generacion de factura (agus)        --TERMINADA--
-19) Anulacion de factura mediante nota de credito (agus)      --TERMINADA--
-20) Alta, modificacion y baja de rubros       --TERMINADA-- (falta un div que me lo tiene que pasar el fabri)
+17) Vista de pedidos (pablo) --TERMINADA--
+18) Generacion de factura (agus)  --TERMINADA--
+19) Anulacion de factura mediante nota de credito (agus)   --TERMINADA--
+20) Alta, modificacion y baja de rubros  --TERMINADA--
 20.1) --TERMINADA--
 20.2) --TERMINADA--
-21) Alta, modificacion y baja de rubros de productos ---Terminada por fabri---
-22) Alta, modificacion y baja de productos
-23) Registro de compra de ingrediente  --TERMINADA--
-24) Control de stock de ingredientes (pablo)
-25) Ranking de productos  --TERMINADA--
+21) Alta, modificacion y baja de rubros de productos (fabri) --TERMINADA--
+22) Alta, modificacion y baja de productos --TERMINADA--
+23) Registro de compra de ingrediente (facu) --TERMINADA--
+24) Control de stock de ingredientes (pablo) --TERMINADA--
+25) Ranking de productos (facu) --TERMINADA--
 26) Ranking de clientes   --TERMINADA--
 27) Movimientos monetarios --TERMINADA--
