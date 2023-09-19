@@ -234,7 +234,6 @@ body{
     border: 1px solid;
     border-color: #000000;
     z-index: 1;
-    
     top: 5px;
     right:15px;
     transition: .3s ease-in-out all;
