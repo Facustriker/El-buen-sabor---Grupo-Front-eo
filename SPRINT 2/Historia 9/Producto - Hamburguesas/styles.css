@@ -488,19 +488,24 @@ body{
 }
 
 .contenedorDeContenedores{
-    display: flex;
+     display: flex;
     gap: 20px;
     padding-left: 96px;
     padding-right: 96px;
+    margin-top: 35px;
+    margin-bottom: 15px;
 }
 
 .contenedor1{
-    display: flex;
+       display: flex;
     flex-direction: column;
     background-color:#D55039;
     border-radius: 15px;
     align-items: center;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.227);
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
     
 }
 .contenedor1 img{
@@ -532,6 +537,37 @@ body{
     color: #373737;
     text-decoration: none;
 }
+/*-----------HOVER DE CARDS-----------*/
+.contenedor1:hover{
+    background-color:#953A3A;
+    transition: .3s ease-in-out all;
+    transform-origin: center;
+}
+.contenedor1::after{
+    position: absolute;
+    width: 25%;
+    height: 10%; 
+    content:"";
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+.contenedor1:hover::after{
+    position: absolute;
+    border: 1px solid;
+    border-color: #000000;
+    z-index: 1;
+    top: 5px;
+    right:15px;
+    transition: .3s ease-in-out all;
+    background: #E9E6E6;
+    border-radius: 8px;
+    background-image: url(https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo/blob/main/Assets/carritoChiquito.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    
+}
+
+/*-----------CAMBIO DE PAGINA-----------*/
 
 #contenedorBotonesPaginas{
     display: flex;
