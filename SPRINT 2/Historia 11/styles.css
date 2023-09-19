@@ -61,6 +61,56 @@ body{
     height: 40px;
     cursor: pointer;
 }
+/*------------CARRITO CON NUMERO DE PRODUCTOS------------*/
+
+.iconoCarrito{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top:-4px
+}
+
+.diseñoNumero{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  #F3F3F3;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top:-30px;
+    right: -35px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    color:#953A3A;
+    border: 0.5px solid;
+    border-color:  #000000;
+}
+
+.botonCarrito{
+    border:none;
+    cursor: pointer;
+    background: none;
+    position: absolute;
+    width: 61px;
+    height: 54px;
+}
+.botonCarrito:hover{
+    transition: 2s;
+    border-bottom:3px solid;
+    border-color: #FFF3DC;
+    
+}
+.imagenCarrito{
+    width: 45px;
+    height: 45px; 
+}
+
 
 #imagenCarrito{
     width: 45px;
