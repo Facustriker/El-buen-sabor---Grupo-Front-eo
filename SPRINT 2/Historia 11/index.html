@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>        <!--Header-->
+        <div class="header">
+                <a id="logo" href="http://127.0.0.1:5500/MAIN%20PAGE/index.html"> <!--Logo-->
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoPNG.png" 
+                    id="logoBSArriba" alt="logoBuenSabor">
+                </a>
+            <div> <!--Botones informacion superiores-->
+                <div id="arriba">
+                    <a href="http://127.0.0.1:5500/MAIN%20PAGE/index.html">
+                        <button class="buttonA">Home</button> 
+                    </a>
+                    <a href="http://127.0.0.1:5500/MAIN%20PAGE/FOOTER_HEADER/productos.html">
+                        <button class="buttonA">Productos</button>
+                    </a>
+                    <a href="https://www.mcdonalds.com.ar/politica-de-privacidad" target="_blank">
+                        <button class="buttonA">Contactos</button>
+                    </a>
+                </div>
+            </div>
+            <div id="contenedorPerfilCarrito">   <!--4 elementos del lado derecho (carrito, lupa, etc.)-->
+                <div id="contenedorPerfil">     <!--Contenedor imagen personita y texto 'Mi perfil'-->
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/personitaPerfil.png" 
+                    id="personitaPerfilImagen">         <!--Imagen en si-->
+                    <button id="botonMiPerfil">Mi perfil</button>   <!--Texto en si-->
+                </div>
+                <a href="https://www.imdb.com/404">     <!--Imagen Lupa-->
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoLupa.jpg" 
+                    alt="submit" class="imagenLupa"></button>       
+                </a>
+                <a href="https://www.imdb.com/404">     <!--Imagen Carrito-->
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/carritoCompra.png" 
+                    alt="carrito" id="imagenCarrito">
+                </a>
+            </div>
+        </div>
+        <div class="lineaBordo"></div> <!--Linea bordo debajo del header-->
+    </header>
+<div id="contenedortextotupedido">
+    <button id="textoCategorias">
+        TU PEDIDO
+    </button>
+</div>
+<div id="lineaBordoCategoria"></div>   <!--Linea bordo divisoria-->    
+<div id="contenedorProducto">
+    <div id="contenedorImagenTexto">
+        <div id="contenedorProductoImagen">
+            <img src="https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo/blob/main/Assets/recetas-hamburguesa-americana-con-queso--122887p183243.jpg?raw=true" alt="" class="imagenburguerpizza">
+        </div>
+        <div id="contenedorProductoTexto">
+            <h2 class="textosTituloComida">Hamburguesa doble americana</h2>
+            <h3 class="textosIngredienteComida">Pan, medallón de carne x2, cheddar x4, huevo, panceta, salsa BBQ </h3>
+            <h2 class="textosPrecioComida">$3500</h2>
+        </div>
+    </div>
+    <div id="contenedorTextoGrandeCuadroBlanco">
+    <h1 id="textoPrecioGrande">$3500</h1>
+    <div id="contenedorBlancoAgregar">
+        <a href="">
+            <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/tachito.png" 
+            alt="borrarElemento" id="imagenTachito">
+        </a>
+        <h3>1</h3>
+        <a href="">
+            <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/signomas.png" 
+            alt="" id="imagenSignoMas">
+        </a>
+    </div>
+    </div>
+</div>
+<div id="contenedorProductoPizza">
+    <div id="contenedorImagenTexto">
+        <div id="contenedorProductoImagen">
+            <img src="https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo/blob/main/Assets/pizza-napolitana-receta.jpg?raw=true" alt="" class="imagenburguerpizza">
+        </div>
+        <div id="contenedorProductoTexto">
+            <h2 class="textosTituloComida">Pizza Napolitana</h2>
+            <h3 class="textosIngredienteComida">Masa, salsa, queso, tomate, oregano </h3>
+            <h2 class="textosPrecioComida">$2000</h2>
+        </div>
+    </div>
+    <div id="contenedorTextoGrandeCuadroBlanco">
+    <h1 id="textoPrecioGrande">$4000</h1>
+    <div id="contenedorBlancoAgregar">
+        <a href="">
+            <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/signoMenos.png" 
+            alt="borrarElemento" id="imagenTachito">
+        </a>
+        <h3>2</h3>
+        <a href="">
+            <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/signomas.png" 
+            alt="" id="imagenSignoMas">
+        </a>
+    </div>
+    </div>
+</div>
+<div id="lineaBordoCategoria2"></div>   <!--Linea bordo divisoria-->
+<div id="tituloResumenPedido">  <!--Texto 'resumen de tu pedido'-->
+    <p>Resumen de tu pedido</p>
+</div>
+<div id="contenedorTextoResumen">   <!--Texto 'Productos' y su precio-->
+    <p>Productos</p>
+    <p>$6800</p>
+</div>
+<div id="contenedorTextoResumen">   <!--Texto 'Envio' y su precio-->
+    <p>Envio</p>
+    <p>$200</p>
+</div>
+<div id="contenedorTextoResumen">   <!--Texto 'Tarifa de servicio' y su precio-->
+    <p>Tarifa de servicio</p>
+    <p>$90</p>
+</div>
+<div id="lineaBordoCategoria2"></div>   <!--Linea bordo divisoria-->
+<div id="contenedorCentradorSubtotal">  <!--Contenedor que centra el cuadro gris-->
+    <div id="contenedorTextoResumenSubtotal">   <!--Texto 'Subtotal' y su precio-->
+        <p>Subtotal</p>
+        <p>$7090</p>
+    </div>
+</div>
+<div id="contenedorBotonesInferiores">
+    <a href="" class="noStyle">
+        <button id="botonSeguirComprando">Seguir comprando</button>
+    </a>
+    <a href="" class="noStyle">
+        <button id="botonContinuar">Continuar</button>
+    </a>
+</div>
+
+    <footer>        <!--Footer-->
+        <div class="lineaNegraFooter"></div> <!--Linea negra semitransparente encima linea bordo-->
+        <div class="lineaBordoFooter"></div> <!--Linea bordo encima del Footer-->
+        <div class="container"> <!--Footer-->
+            <div class="parte1">    <!--Botones Apps, logo y redes sociales-->
+                <div id="APPcontainer">   <!--Contenedor App-->
+                    <div id="colTextoApp"> <!--Descargar APP-->
+                        <a href="https://play.google.com/store/apps/details?id=com.my.cooking.chef.kitchen.craze.fever&hl=es_AR">
+                            <button class="button buttonApp">Descarga la App</button> <br>
+                        </a>
+                        <h5 class="texto">Descarga la App para tu smartphone</h5>
+                    </div>
+                    <div id="Apps"> <!--Imagenes APP-->
+                        <a href="https://play.google.com/store/apps/details?id=com.my.cooking.chef.kitchen.craze.fever&hl=es_AR">
+                            <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoPlay.png" 
+                            class="imagePlay">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.my.cooking.chef.kitchen.craze.fever&hl=es_AR">
+                            <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoApple.png" 
+                            class="imageApple">
+                        </a>
+                    </div>
+                </div>
+                <div id="logoBSFooter"> <!--Logo-->
+                    <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logoBS.png" 
+                    style="width:60px; height: 60px;">
+                </div>
+                <div id="socialContenedor"> <!--Contenedor redes sociales-->
+                    <h4 class="texto" id="seguinosEn">Seguinos en:</h4>
+                    <div id="imagenNombreContenedor">
+                        <div id="instagram"> <!--Instagram-->
+                            <a href="https://www.instagram.com/el_buen_sabor/">
+                                <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logo%20Insta.png" 
+                            class="imageInsta">
+                            </a>
+                            <a href="https://www.instagram.com/el_buen_sabor/">
+                                <button class="button buttonUp">Instagram</button>
+                            </a>
+                        </div>
+                        <div id="facebook"> <!--Facebook-->
+                            <a href="https://www.facebook.com/el_buen_sabor/">
+                                <img src="https://raw.githubusercontent.com/Facustriker/El-buen-sabor---Grupo-Front-eo/main/Assets/logo%20Face.png" 
+                                class="imageFace">
+                            </a>
+                            <a href="https://www.facebook.com/el_buen_sabor/">
+                                <button class="button buttonUp">Facebook</button> <br>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>     
+            <div class="parte2"> <!--Botones informacion inferiores-->
+                <div id="abajo">
+                    <a href="https://github.com/Facustriker/El-buen-sabor---Grupo-Front-eo">
+                        <button class="button buttonAb">Sobre nosotros</button> 
+                    </a>
+                    <a href="https://buenosaires.gob.ar/jefaturadegabinete/atencion-ciudadana-y-gestion-comunal/defensa-al-consumidor">
+                        <button class="button buttonAb">Ayuda</button>
+                    </a>
+                    <a href="https://www.mcdonalds.com.ar/politica-de-privacidad">
+                        <button class="button buttonAb">Términos y condiciones</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
