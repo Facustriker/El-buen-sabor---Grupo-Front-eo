@@ -1,0 +1,630 @@
+
+body{
+    background-color: #FFF3DC;
+    font-family: sans-serif;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.noStyle{
+    text-decoration: none;
+}
+
+/*------------------------------------------------------------ ESTILOS HEADER ---------------------------------------------------------------------*/
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D55039;
+    min-height: 75px;
+    padding: 10px;
+    padding-right: 96px;
+  
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 96px;
+}
+#logoBSArriba{
+    width:110px;
+    min-height: 110px;
+}
+#arriba{                    /*BOTONES SUPERIORES DE HOME, PRODUCTOS Y CONTACTOS*/
+    color: #FFF3DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 66px;
+}
+.buttonA{
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    text-align: center;
+    font-style: inherit;
+    font-size: 25px;
+}
+.buttonA:hover{
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+#contenedorPerfilCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#contenedorPerfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+#personitaPerfilImagen{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#contenedorPerfil:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+#botonMiPerfil{
+    border: none;
+    background-color: #D55039;
+    color: white;
+    font-size: 20px;
+}
+#botonMiPerfil:hover{
+    cursor: pointer;
+}
+.imagenLupa{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+/*------------CARRITO CON NUMERO DE PRODUCTOS------------*/
+
+.iconoCarrito{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top:-4px
+}
+
+.diseñoNumero{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  #F3F3F3;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top:-30px;
+    right: -35px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    color:#953A3A;
+    border: 0.5px solid;
+    border-color:  #000000;
+}
+
+.botonCarrito{
+    border:none;
+    cursor: pointer;
+    background: none;
+    position: absolute;
+    width: 61px;
+    height: 54px;
+}
+.botonCarrito:hover{
+    transition: 2s;
+    border-bottom:3px solid;
+    border-color: #FFF3DC;
+    
+}
+.imagenCarrito{
+    width: 45px;
+    height: 45px; 
+}
+.lineaBordo{
+    display: flex;
+    background-color: #953A3A;
+    height: 12px;
+    padding: 1px;
+}
+
+
+
+
+/*--------------------------------------------------ESTILOS BODY------------------------------------------------------*/ 
+
+#lineaBordoCategoria{
+    margin: 20px 0px 20px;
+    height: 15px;
+    background-color: #953A3A;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 96px;
+}
+#contenedorFormaEnvio {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.contenedorEnvioDomicilio{
+    display: flex;
+    padding: 0px 96px 0px 96px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.botonEntrega{
+    background-color: #D55039;
+    border-radius: 8px;
+    border: 3px solid #953A3A;
+    overflow: hidden;
+    padding: 15px;
+    transition: .3s ease all;
+    margin-right: 15px;
+}
+.imagenEntrega{
+    width: 80px;
+    height: 80px;
+}
+.textoEnvioComicilio{
+    border: none;
+    background-color: #FFF3DC;
+    color: #252525;
+    font-size: 40px;
+    font-weight:900;
+    width: auto;
+    height: auto;
+}
+
+#textoEntrega{
+    margin-bottom: 100px;
+    padding-top: 25px;
+    border: none;
+    background-color: #FFF3DC;
+    color: #252525;
+    font-size: 40px;
+    font-weight:500;
+    width: 400px;
+    height: 100px;
+}
+.imagenRetiro{
+    width: 178px;
+    height: 178px;
+    cursor: pointer;
+}
+/*------------------CONTENEDOR DE LOS DATOS------------------*/
+.datosCliente{
+    padding-left: 96px;
+    padding-right:96px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top:  70px;
+    justify-content: space-around;
+}
+/*------------------CONTENEDOR DE DIRECCION------------------*/
+.direccion{
+    margin-bottom: 20px;
+    padding-top: 25px;
+    border: none;
+    background-color: #FFF3DC;
+    color: #252525;
+    font-size: 40px;
+    font-weight:500;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#contenedorDireccion{
+    justify-content: center;
+    width: 300px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight:500;
+    background-color: #D9D9D9;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-right: 20px; 
+    box-shadow: 0px 5px 5px gray;
+    position: relative;
+}
+
+.selectorDireccion{/*------------------SELECTOR DE DIRECCION------------------*/
+    box-shadow: 0px 5px 5px gray;
+    align-items: center;
+    width: 908px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight:500;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding:0px 700px 0px 20px;
+    flex-direction: row;
+    position: relative;
+}
+.imagenSelector{
+    width: 58px;
+    height: 48px;
+    cursor: pointer;
+}
+#contenedorTelefono{
+    justify-content: center;
+    width: 300px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight:500;
+    background-color: #D9D9D9;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-right: 20px; 
+    box-shadow: 0px 5px 5px gray;
+    position: relative;
+}
+.selectorTelefono{/*------------------SELECTOR DE DIRECCION------------------*/
+    box-shadow: 0px 5px 5px gray;
+    align-items: center;
+    width: 2000px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight:500;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding:0px 750px 0px 20px;
+    flex-direction: row;
+}
+
+.mercadoPago{
+    align-items: center;
+    display: flex;
+    padding-right: 96px;
+    padding-left: 96px;
+    justify-content:space-around;
+    flex-direction: column;
+}
+#textoFormaEnvio{
+    margin-bottom: 20px;
+    padding-top: 25px;
+    border: none;
+    background-color: #FFF3DC;
+    color: #252525;
+    font-size: 40px;
+    font-weight:900;
+    width: 400px;
+    height: 100px;
+}
+.botonMercadoPago{
+    border-radius: 24px;
+    align-items: center;
+    transition: .3s ease all;
+    border: 4px solid black;
+    margin-bottom: 20px;
+}
+.botonMerdcadoPago::after{
+    border: 15px solid #000000;
+}
+.logoMP{
+    width: 390px;
+    height: 180px;
+    border-radius: 24px;
+}
+#tituloResumenPedido{
+    display: flex;
+    justify-content: left;
+    padding-left: 96px;
+    font-size: 35px;
+  
+    font-weight:600;
+}
+
+#contenedorTextoResumen{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    font-size: 30px;
+}
+
+#contenedorCentradorSubtotal{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedorTextoResumenSubtotal{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 1120px;
+    border-radius: 12px;
+    height: 60px;
+    padding: 40px 96px 40px 96px;
+    justify-content: space-between;
+}
+
+#contenedorBotonesInferiores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#botonSeguirComprando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    font-size: 35px;
+    color: #D55039;
+    background-color: #FFF3DC;
+    border-radius: 8px;
+    border: 3px solid #D55039;
+    cursor: pointer;
+}
+.contenedorconfirmarPedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 96px;
+}
+
+.confirmarPedido{
+    width: auto;
+    font-size: 45px;
+    color: #FFF3DC;
+    background-color: #D55039;
+    border-radius: 8px;
+    border: 3px solid #D55039;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px 15px ;
+    transition: .3s ease all;
+    
+}
+.confirmarPedido:hover{
+    background-color: #FFF3DC;
+    border: 3px solid #D55039;
+    color: #D55039;
+}
+
+/* ------------------------------------------ESTILOS FOOTER-------------------------------------------*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #D55039;
+    flex-direction: column;
+}
+
+.lineaBordoFooter{
+    height: 15px;
+    background-color: #953A3A;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.lineaNegraFooter{
+    height: 3px;
+    background-color: #00000038;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    text-align: center;
+    font-style: inherit;
+    font-size: 25px;
+  }
+
+  .buttonAb{
+    font-size: 18px;
+    margin: 15px 32px;
+    cursor: pointer;
+  }
+
+  .buttonUp{
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .buttonApp{
+    font-size: 20px !important;
+    cursor: pointer;
+  }
+
+.button:hover{
+    color: white;
+    text-decoration-line: underline;
+  }
+
+.texto{
+    background:none;
+    border: none;
+    color: #FFF3DC;
+    font-style: inherit;
+    
+}
+
+
+/* ---------------------PARTE 1 (COLUMNA APPS, LOGO Y COLUMNA REDES SOCIALES)-------------------------------------------*/
+
+.parte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    align-items: center;
+}
+
+
+/* ------------------------------------------CONTENEDOR APP-------------------------------------------*/
+
+#APPcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#colTextoApp{
+    display: flex;
+    flex-direction: column;
+    color: #FFF3DC;
+    font-size: 14px;
+    font-style: inherit;
+}
+
+#Apps{
+    display: flex;
+}
+
+.imagePlay{
+    width: 90px;
+    height: 35px;
+}
+
+.imageApple{
+    width: 90px;
+    height: 35px;
+}
+
+/* ------------------------------------------CONTENEDOR LOGO-------------------------------------------*/
+
+#logoBSFooter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* ------------------------------------------CONTENEDOR REDES SOCIALES-------------------------------------------*/
+
+#socialContenedor{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#imagenNombreContenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+#instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageInsta{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.imageFace{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* -----------------------------------------PARTE 2 (BOTONES INFERIORES)-------------------------------------------*/
+
+.parte2{
+    margin-bottom: 1em;
+}
+
+#abajo{
+    color: #FFF3DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 66px;
+    color: #FFF3DC;
+}
+
+@media (max-width:700px){       /*CUANDO LA PANTALLA SEA MENOR A 700PX LLAMA A MEDIA QUERY Y HACE:*/
+    .header{
+        flex-direction: column;
+    }
+
+    .parte1{
+        flex-direction: column;
+    }
+
+    #arriba{
+        padding: 10px;
+    }
+
+    #logo{
+        padding-left: 10px;
+    }
+
+    .fondo{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+
+    #contenedorImagenesComida{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contenedorImagenesInformacion{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        align-items: center;
+    }
+}
